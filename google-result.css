@@ -1,6 +1,38 @@
 body {
 	font-family: arial,sans-serif;
-	margin: 0;
-	padding: 0;
-	overflow-y: hidden;
+}
+
+.main_input {
+	width: 50%;
+	margin: 5px auto;
+	border-radius: 30px;
+	border: thin solid #9999996e;
+	height: 2em;
+	padding: 1.35rem;
+
+}
+
+.search-bar {
+	margin-top: -15px;
+	color: #9999996e;
+}
+
+.search-icon {
+	margin-left: 5px;
+}
+
+.main_input input[type=text] {
+	position: relative;
+	background: #fff;
+	border: none;
+	outline: none;
+	line-height: 1.5rem;
+}
+
+.search-tab {
+	margin: 10px 175px 5px;
+}
+
+.more-space {
+	margin-right: 100px;
 }
